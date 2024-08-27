@@ -18,6 +18,7 @@ class House:
             print(i)
             i += 1
 
+
 h1 = House('ЖК Эльбрус', 10)
 h2 = House('ЖК Акация', 20)
 
