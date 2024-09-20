@@ -16,12 +16,6 @@ class Vehicle:
         "Нельзя сменить цвет на <новый цвет>".
      """
 
-    # owner = ""
-    # __model = ""
-    # __engine_power = 0
-    # __color = ""
-    # __COLOR_VARIANTS = ['blue', 'red', 'green', 'black', 'white']
-
     def __init__(self, owner="", model="", color="", engine_power=0):
         self.owner = owner
         self.__model = model
@@ -61,7 +55,6 @@ class Sedan(Vehicle):
 
 
 # Текущие цвета __COLOR_VARIANTS = ['blue', 'red', 'green', 'black', 'white']
-
 vehicle1 = Sedan('Fedos', 'Toyota Mark II', 'blue', 500)
 #
 #
