@@ -28,7 +28,8 @@ class Shop:
     Добавляет в файл __file_name каждый продукт из products, если его ещё нет в файле (по названию).
     Если такой продукт уже есть, то не добавляет и выводит строку 'Продукт <название> уже есть в магазине' .
     """
-    __file_name = 'products.txt'
+    def __init__(self):
+        self.__file_name = 'products.txt'
 
     def get_products(self):
 
