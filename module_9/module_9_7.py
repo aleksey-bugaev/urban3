@@ -21,6 +21,7 @@ def is_prime(func):
 @is_prime
 def sum_three(*args):
     result = sum(args)
+    print(result)
     return result
 
 
